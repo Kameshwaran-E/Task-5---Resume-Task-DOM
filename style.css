@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(128, 128, 128, 0.507);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-img{
+ 
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     top: 1px;
+    
+}
+
+.profile-img img{
+    width: 100px;
+    height: 100px;
+}
+
+header .name{
+    background-color: rgba(128, 128, 128, 0.76);
+      width: 400px;
+      height: 100px;
+     position: relative; 
+     top: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: white;
+}
+header .empty{
+    width: 100%;
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.507);
+    position: absolute;
+    top: 190px;
+    overflow:hidden ;
+}
+
+ .details{
+    position: absolute;
+    top: 220px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    padding-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+main .profile{
+    position: absolute;
+    top: 280px;
+    display: flex;
+    
+}
+main p{
+    position: absolute;
+    top: 340px;
+    padding-left: 60px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+main .skills{
+    position: absolute;
+    top: 480px;
+    display: flex;
+}
+main h3{
+    position: absolute;
+    top: 520px;
+    padding-left: 120px;
+}
+main ul {
+    position: absolute;
+    top: 550px;
+    padding-left: 160px;
+    list-style-type:circle; 
+}
+
+main h4{
+    position: absolute;
+    top: 520px;
+    padding-left: 300px;
+}
+main ol{
+    position: absolute;
+    top: 550px;
+    padding-left: 300px;
+    list-style-type: circle;
+
+}
+
+main .work{
+    position: absolute; 
+    top:730px;
+    display: flex; 
+}
+main .work h1 {
+    padding-left: 20px;
+}
+main .work h3{
+    top: 1950px;
+    left: 10px;
+}
+
+main .title h1{
+   position: relative;
+   top: 600px;
+}
+main .work span{
+    position: absolute;
+    top: 100px;  
+}
+
+main .work h6{
+    position: absolute;
+    left: 300px;
+    top: 60px;
+}
+
+.event h2{
+    position: absolute;
+    top: 780px;
+    left: 80px;
+}
+.event p{
+    position: absolute;
+    top: 785px;
+    left: 200px;
+}
+.event h3{
+    position: absolute;
+    top: 810px;
+    left: 1px;
+}
+
+ .exp{
+    position: relative;
+    top: 150px;
+    left: -3px;
+
+}
+body .v1{
+    border-left: 5px solid grey;
+    height: 900px;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+.alignright{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+     right: 100px;
+}
+.alignright .imge{  
+    display: flex;
+    position: absolute;
+     top: 150px;
+     right: 120px;
+}
+.alignright .title{
+    position: absolute;
+     top: 200px;
+     right: 60px;
+   
+}
+.alignright .list{
+    position: absolute;
+     top: 270px;
+     right: -60px;
+}
+.alignright .imge1{  
+    display: flex;
+    position: absolute;
+     top: 400px;
+     right: 150px;
+}
+.alignright .title1{
+    position: absolute;
+     top: 450px;
+     right: 60px;
+   
+}
+.alignright .list1{
+    position: absolute;
+     top: 530px;
+     right: -60px;
+}
+.alignright .end{
+    position: absolute;
+    top: 800px;
+    right: 90px;
+}
+
